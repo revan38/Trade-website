@@ -1,0 +1,418 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+
+.nav {
+    margin-left: 3%;
+    width: 94%;
+    height: 50px;
+    display: flex;
+    background-color: rgb(31, 34, 33);
+}
+
+.nav .logo {
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    padding-left: 4%;
+}
+
+.nav .nav-items {
+    width: 85%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: #ffff;
+}
+
+.nav .logo h1 {
+    color: #ff910b;
+}
+
+.nav .nav-items h5 {
+    padding-right: 3%;
+}
+
+.nav .nav-items p {
+    width: 6%;
+    color: #000;
+    background-color: rgb(246, 203, 49);
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.nav .nav-items h5:hover {
+    text-decoration: underline;
+}
+
+.nav .nav-items p:hover {
+    background-color: #e6ae6a;
+    transition: .3s;
+}
+
+.main-page {
+    width: 94%;
+    height: 600px;
+    margin-left: 3%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #000;
+}
+
+.main-page__text {
+    width: 500px;
+    margin-top: 5%;
+    color: #fff;
+}
+
+.main-page__imgs {
+    width: 55%;
+    height: 500px;
+    margin-top: 5%;
+    color: #fff;
+}
+
+
+
+.main-page__text h1 {
+    margin-top: 7%;
+    font-size: 60px;
+}
+
+.main-page__text p {
+    font-size: 15px;
+    padding-bottom: 6%;
+    padding-top: 5%;
+    width: 70%;
+}
+
+.main-page__text a {
+    text-decoration: none;
+    color: #000;
+    background-color: #e6a24f;
+    /* margin-left: 20%; */
+    padding: 2% 7%;
+    font-size: 15px;
+    border-radius: 10px;
+
+}
+
+.main-page__text a:hover {
+    text-decoration: underline;
+    background-color: #b39837;
+    color: #ffffff;
+    transition: .5s ease;
+}
+
+.main-page__numbers {
+    width: 94%;
+    height: 150px;
+    margin-left: 3%;
+    background-color: #13100e;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-page__numbers .box1,
+.box2,
+.box3,
+.box4 {
+    width: 20%;
+    height: 150px;
+}
+
+.main-page__numbers .box1 h2,
+.box2 h2,
+.box3 h2,
+.box4 h2 {
+    font-size: 50px;
+    padding-top: 40px;
+}
+
+.main-page__numbers .box1 p,
+.box2 p,
+.box3 p,
+.box4 p {
+    font-size: 17px;
+}
+
+.main-page__numbers .box1 h2,
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-page__numbers .box2 h2,
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-page__numbers .box3 h2,
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-page__numbers .box4 h2,
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selection {
+    width: 97%;
+    height: 400px;
+    background-color: #fff;
+    margin-left: 3%;
+}
+
+.selection-title h2 {
+    font-size: 40px;
+    margin: 3% 0 1% 0;
+    display: flex;
+    justify-content: center;
+}
+
+.selection-title p {
+    color: #353534;
+    margin-bottom: 15px;
+}
+
+.coins {
+    width: 97%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 70px;
+
+}
+
+.box {
+    border-radius: 15px;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border-color: rgb(232, 230, 230);
+    box-shadow: 2px 2px 2px 2px #ededed;
+}
+
+.coins .box i {
+    color: #e6a24f;
+    padding-right: 10px;
+}
+
+.mainwhitebit {
+    width: 94%;
+    height: 300px;
+    margin-left: 3%;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding-bottom: 50px;
+}
+
+.every {
+    width: 30%;
+    background-color: #F6F7FA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.every-img {
+    display: flex;
+    justify-content: center;
+}
+
+.every-p {
+    display: flex;
+    justify-content: center;
+}
+
+.every-p p {
+    width: 65%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.whitebit-text {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whitebit-text h2 {
+    font-size: 40px;
+}
+
+.registration {
+    width: 91%;
+    height: 950px;
+    margin-left: 65px;
+    background-color:
+        #151516;
+    ;
+    /* border: 1px solid red; */
+}
+
+.registration-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registration-title h1 {
+    color: #fff;
+    padding: 40px 0 15px 0;
+    font-size: 35px;
+}
+
+.registration-title h5 {
+    color: #91919D;
+}
+
+.tools {
+    width: 100%;
+    display: flex;
+    gap: 100px;
+    margin-top: 50px;
+    /* border: 1px solid red; */
+}
+
+.phone {
+    width: 400px;
+    height: 800px;
+    /* border: 1px solid red; */
+}
+
+.phone h3 {
+    text-align: center;
+    color: #fff;
+}
+
+.phone-img {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.feedback {
+    width: 91%;
+    height: 650px;
+    margin-left: 65px;
+    background-color: #f1f1f1;
+}
+
+.feedback-title {
+    text-align: center;
+    font-size: 30px;
+    padding: 40px 0 25px 0;
+}
+
+.feedback-boxes {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+.feedback-box {
+    width: 300px;
+    height: 240px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.feedback-box__stars {
+    padding: 10px 0 0 10px;
+    font-size: 20px;
+    color: #F2D080;
+    ;
+}
+
+.feedback-box__date {
+    padding: 15px 0 0 15px;
+    color: #91919D;
+}
+
+.feedback-box__person {
+    margin: 15px 0 0 15px;
+}
+
+.feedback-box__person h3 {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.feedback-box__person p {
+    font-size: 15px;
+    color: #91919D;
+}
+
+.account {
+    width: 91%;
+    height: 500px;
+    background: #151516;
+    margin-left: 65px;
+}
+
+.account-title {
+    color: #f1f1f1;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.account-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.account-btn {
+    width: 200px;
+    height: 50px;
+    background-color: #F2D080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.account-btn a {
+    color: #000;
+
+}
+
+.darkmood {
+    margin-top: -350px;
+}
+
+.darkmood img {
+    width: 100%;
+}
